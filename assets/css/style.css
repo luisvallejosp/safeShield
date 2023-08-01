@@ -183,7 +183,7 @@ textarea:focus, input:focus, select:focus{
 
  header .container{
     height: 400px;
-    background-image: url(assets/img/gente-segura-safe-shield-header.png);
+    background-image: url(/assets/img/gente-segura-safe-shield-header.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
