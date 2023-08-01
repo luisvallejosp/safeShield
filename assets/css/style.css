@@ -183,7 +183,7 @@ textarea:focus, input:focus, select:focus{
 
  header .container{
     height: 400px;
-    background-image: url(/Assets/img/gente-segura-safe-shield-header.png);
+    background-image: url(assets/img/gente-segura-safe-shield-header.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -307,13 +307,13 @@ header .container p {
 }
 
 #sectionUsuarios .container .cards #administrativos{
-    background-image: url(/Assets/img/usuarios_01.png);
+    background-image: url(assets/img/usuarios_01.png);
 }
 #sectionUsuarios .container .cards #profesionales{
-    background-image: url(/Assets/img/usuarios_02.png); 
+    background-image: url(assets/img/usuarios_02.png); 
 }
 #sectionUsuarios .container .cards #trabajadores{
-    background-image: url(/Assets/img/usuarios_03.png); 
+    background-image: url(assets/img/usuarios_03.png); 
 }
 
 #sectionUsuarios .container .cards .userCard >*{
