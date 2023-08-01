@@ -1,0 +1,37 @@
+header .container, footer .container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+header .container h1{
+    display: grid;
+    grid-column: 7 / 12;
+    grid-row: 2;
+    align-self: flex-end;
+}
+
+header .container p{
+    display: grid;
+    grid-column: 7 / 12;
+    grid-row: 3;
+}
+
+footer .container .empresa{
+    display: grid;
+    grid-column: 1 / 5;
+    grid-row: 2/4;
+}
+
+footer .container .links{
+    display: grid;
+    grid-column: 10 / 12;
+    grid-row: 2/4;
+}
+
+footer .container p{
+    display: grid;
+    grid-column: 1 / 13;
+    grid-row: 4/5;
+}
+

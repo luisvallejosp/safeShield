@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Safe Shield</title>
+    <meta name="description" content="Página dedicada a seguridad laboral">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--NAV BAR-->
+    <nav class="menu">
+        <div class="container containerGrid">
+            <ul>
+                <li><a class="logoMenu" href="Index.html"><img src="/assets/img/logo-horizontal.svg" alt=""></a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+                <li><a href="Crearcapacitacion.html">Expone con Nosotros</a></li>
+                <li><a href="listadocapacitaciones.html">Capacitaciones</a></li>
+                <li><a href="listadousuarios.html">Usuarios Registrados</a></li>
+                <li><a href="Crearusuario.html">Nuevo Usuario</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Editar Datos de Cliente</h1>
+    </header>
+
+    <main>
+        <h2>Formulario de Edición</h2>
+        <form action="procesar_edicion_cliente.php" method="post">
+            <label for="nombres">Nombres:</label>
+            <input type="text" id="nombres" name="nombres" required><br>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required><br>
+
+            <label for="run">RUN:</label>
+            <input type="text" id="run" name="run" required><br>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required><br>
+
+            <label for="afp">AFP:</label>
+            <input type="text" id="afp" name="afp" required><br>
+
+            <label for="sistema_salud">Sistema de Salud:</label>
+            <input type="text" id="sistema_salud" name="sistema_salud" required><br>
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required><br>
+
+            <label for="comuna">Comuna:</label>
+            <input type="text" id="comuna" name="comuna" required><br>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" required><br>
+
+            <button type="submit">Guardar Cambios</button>
+        </form>
+    </main>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="container">
+            <div class="empresa">
+                <a href="Index.html"> <img src="/assets/img/logo-vertical.svg" alt="Logo del footer"></a>
+                <p>Una compañía de asesorías en prevención de riesgos laborales, soluciones completas y asequibles para mejorar la seguridad laboral y cumplir con las normativas.</p>
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                    <li><a href="Crearcapacitacion.html">Expone con Nosotros</a></li>
+                    <li><a href="listadocapacitaciones.html">Capacitaciones</a></li>
+                    <li><a href="listadousuarios.html">Usuarios Registrados</a></li>
+                    <li><a href="Crearusuario.html">Nuevo Usuario</a></li>
+                </ul>
+                <div class="rrss">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="http://www.Instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <p>Todos los derechos reservados & copy; 2023 Safe Shield</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
