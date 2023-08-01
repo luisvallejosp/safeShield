@@ -164,7 +164,7 @@ textarea:focus, input:focus, select:focus{
     height: 30px;
  }
 
- .menu .container ul li .logoMenu i{
+ .menu .container ul li div i{
     display: none;
  }
 

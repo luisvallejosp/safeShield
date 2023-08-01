@@ -9,7 +9,7 @@
 /*************************** Tablet ***************************/
 /**************************************************************/
 
-@media (min-width: 535px) and (max-width: 824px){
+@media /*(min-width: 535px) and */(max-width: 824px){
 
 
 /*************************** NAV BAR ***************************/
@@ -57,6 +57,30 @@
         .menu .container ul li .menuEnable{
             display: flex;
         }
+
+
+
+    /*************************** HEADER ***************************/
+
+
+    /*************************** SECTIONS ***************************/
+
+    #sectionCapacitaciones .container{
+        overflow: hidden;
+    }
+   
+    #sectionCapacitaciones .container .capacitaciones{
+        overflow-x: scroll;
+    }
+
+    #sectionCapacitaciones .container .capacitaciones i{
+        display: none;
+    }
+
+    #sectionCapacitaciones .container .capacitaciones .capacitacion{
+        margin: 0px 50px;
+        width: 150px;
+    }
 
 
 }
