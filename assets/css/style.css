@@ -164,6 +164,10 @@ textarea:focus, input:focus, select:focus{
     height: 30px;
  }
 
+ .menu .container ul li .logoMenu i{
+    display: none;
+ }
+
  /* NAV BAR HOVER */
 
  .menu .container ul li a:hover{
@@ -201,13 +205,14 @@ header .container p {
 /* PREVIENE */
 #sectionPreviene .container{
     display: flex;
-    flex-direction: row;
+    flex-flow: row;
     padding-top: 100px;
     padding-bottom: 100px;
+    min-height: 400px;
 }
 
 #sectionPreviene .container img{
-    width: 400px;
+    max-width: 40%;
     height: 200px;
     object-fit: cover;
     border-radius: 16px;
@@ -219,6 +224,7 @@ header .container p {
     justify-content: center;
     padding-left: 50px;
     align-items: left;
+    width: 60%;
 }
 
 #sectionPreviene .container .contentTxt h2, #sectionPreviene .container .contentTxt p{
@@ -304,6 +310,7 @@ header .container p {
     justify-content:end;
     align-items: center;
     padding: 20px 15px;
+    margin: 0px 5px;
 }
 
 #sectionUsuarios .container .cards #administrativos{
