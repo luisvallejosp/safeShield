@@ -307,13 +307,13 @@ header .container p {
 }
 
 #sectionUsuarios .container .cards #administrativos{
-    background-image: url(assets/img/usuarios_01.png);
+    background-image: url(/assets/img/usuarios_01.png);
 }
 #sectionUsuarios .container .cards #profesionales{
-    background-image: url(assets/img/usuarios_02.png); 
+    background-image: url(/assets/img/usuarios_02.png); 
 }
 #sectionUsuarios .container .cards #trabajadores{
-    background-image: url(assets/img/usuarios_03.png); 
+    background-image: url(/assets/img/usuarios_03.png); 
 }
 
 #sectionUsuarios .container .cards .userCard >*{
