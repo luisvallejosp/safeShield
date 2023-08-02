@@ -144,6 +144,13 @@
     display: flex;
     flex-flow: column;
     align-items: center;
+    padding-top: 0px;
+    padding-bottom: 60px;
+}
+
+#sectionPreviene{
+    transform: translateY(-40px);
+
 }
 
 #sectionPreviene .container img{

@@ -43,16 +43,7 @@ footer .container p{
         grid-template-rows: repeat(8, 1fr);
     }
 
-
-    header .container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
     
-
-
     footer .container .empresa{
         grid-template-columns: repeat(3, 1fr);
         grid-column: 1 / 4;
