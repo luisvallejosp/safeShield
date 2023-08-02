@@ -63,6 +63,22 @@
     /*************************** HEADER ***************************/
 
 
+    header .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header .container h1{
+    align-self: center;
+    }
+
+    header .container p{
+        text-align: center;
+        }
+
+
     /*************************** SECTIONS ***************************/
 
 
@@ -139,6 +155,41 @@
 
 #sectionUsuarios .container .cards .userCard{
     height: 350px;
+}
+
+
+footer .container .empresa{
+    padding-top: 30px;
+    text-align: center;
+    align-items: center;
+
+}
+
+footer .container .empresa a{
+margin: auto;
+align-self: center;
+}
+
+footer .container .empresa p{
+    text-align: center;
+    padding-bottom: 0;
+}
+
+footer .container .links{
+    text-align: center;
+}
+
+
+footer .container p{
+    text-align: center;
+}
+
+footer .container .links ul{
+    padding-top: 20px;
+}
+
+footer .container .links .rrss{
+    justify-content: space-around;
 }
 
 

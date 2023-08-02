@@ -35,3 +35,44 @@ footer .container p{
     grid-row: 4/5;
 }
 
+
+@media (max-width: 534px){
+
+    footer .container{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+    }
+
+
+    header .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+
+    footer .container .empresa{
+        grid-template-columns: repeat(3, 1fr);
+        grid-column: 1 / 4;
+        grid-row: 1/4;
+    }
+    
+    footer .container .links{
+        grid-column: 1 / 4;
+        grid-row: 4/8;
+    }
+    
+    footer .container p {
+        grid-column: 1 / 4;
+        grid-row: 8/9;
+    }
+    
+    footer .container .empresa a{
+        grid-column: 2 / 3;
+    }
+
+
+}
+
