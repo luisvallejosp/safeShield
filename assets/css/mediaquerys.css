@@ -65,6 +65,8 @@
 
     /*************************** SECTIONS ***************************/
 
+
+    /* CAPACITACIONES */
     #sectionCapacitaciones .container{
         overflow: hidden;
     }
@@ -83,6 +85,22 @@
     }
 
 
+    /* USUARIOS */
+
+    #sectionUsuarios .container .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    #sectionUsuarios .container .cards .userCard{
+        min-width: 90%;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
 }
 
 
@@ -90,6 +108,38 @@
 /************************************************************/
 /*************************** Móvil ***************************/
 /************************************************************/
-@media (min-width: 200px) and (max-width: 534px){
+@media (max-width: 534px){
+
+    /* PREVIENE */
+#sectionPreviene .container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#sectionPreviene .container img{
+    max-width: 70%;
+    object-fit: cover;
+    border-radius: 16px;
+     margin-bottom: 20px;
+}
+
+#sectionPreviene .container .contentTxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0px;
+    align-items: center;
+    width: 80%;
+}
+
+#sectionPreviene .container .contentTxt p, #sectionPreviene .container .contentTxt h2{
+    text-align: center;
+}
+
+#sectionUsuarios .container .cards .userCard{
+    height: 350px;
+}
+
 
 }
