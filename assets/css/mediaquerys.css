@@ -76,7 +76,8 @@
 
     header .container p{
         text-align: center;
-        }
+        padding: 25px;
+    }
 
 
     /*************************** SECTIONS ***************************/
@@ -115,6 +116,14 @@
         min-width: 90%;
         height: 300px;
         margin-bottom: 20px;
+    }
+
+    /* CONTACTANOS */
+    
+    #contacto .container h2, #contacto .container p{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
     }
 
 }
