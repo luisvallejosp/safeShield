@@ -7,8 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Safe Shield</title>
     <meta name="description" content="Página dedicada a seguridad laboral">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/mediaquerys.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
@@ -16,11 +17,14 @@
 </head>
 
 <body>
-    <!--NAV BAR-->
+<!----------------------NAV BAR---------------------->
     <nav class="menu">
         <div class="container containerGrid">
-            <ul>
-                <li><a class="logoMenu" href="Index.html"><img src="assets/img/logo-horizontal.svg" alt=""></a></li>
+            <ul id="mainMenu">
+                <li class="firstMenu"><a class="logoMenu" href="Index.html"><img src="assets/img/logo-horizontal.svg" alt=""></a>
+                    <div id="abrirMenu"><i class="fa-solid fa-bars"></i></div>
+                    <div class="menuDisable" id="cerrarMenu"><i class="fa-solid fa-xmark"></i></div>
+                </li>
                 <li><a href="contacto.html">Contacto</a></li>
                 <li><a href="crearcapacitacion.html">Expone con Nosotros</a></li>
                 <li><a href="listadocapacitaciones.html">Capacitaciones</a></li>
@@ -28,6 +32,7 @@
                 <li><a href="crearusuario.html">Nuevo Usuario</a></li>
             </ul>
         </div>
+    <script src="assets/js/index.js"></script>
     </nav>
 
     <!--BREADCRUMB-->
@@ -49,47 +54,51 @@
     </header>
 
     <section id="userList">
-        <table>
-            <tr>
-                <th>Nombres</th>
-                <th>Apellidos</th>
-                <th>RUN</th>
-                <th>Tipo de Usuario</th>
-            </tr>
+        <div class="container">
+            <table>
+                <tr>
+                    <th>Nombres</th>
+                    <th>Apellidos</th>
+                    <th>RUN</th>
+                    <th>Tipo de Usuario</th>
+                    <th><i class="fa-solid fa-ellipsis"></i></th>
+                </tr>
 
-            <tr>
-                <td>Denisse</td>
-                <td>Rossel</td>
-                <td>12345678-9</td>
-                <td>Cliente</td>
-                <td>
-                    <a href="???"><img src="ICONO" alt="Eliminar" title="Eliminar"></a>
-                    <a href="editarcliente.html"><img src="ICONO" alt="Editar" title="Editar"></a>
-                </td>
-            </tr>
+                <tr>
+                    <td>Denisse</td>
+                    <td>Rossel</td>
+                    <td>12345678-9</td>
+                    <td>Cliente</td>
+                    <td class="actionIcons">
+                        <a href="???" title="Eliminar"><i class="fa-solid fa-trash"></i></a>
+                        <a href="editarcliente.html" title="Editar"><i class="fa-solid fa-pen-to-square"></i></a>
+                    </td>
+                </tr>
 
-            <tr>
-                <td>Yeny</td>
-                <td>Paredes</td>
-                <td>12345678-9</td>
-                <td>Administrativo</td>
-                <td>
-                    <a href="???"><img src="ICONO" alt="Eliminar" title="Eliminar"></a>
-                    <a href="editaradministrativo.html"><img src="ICONO" alt="Editar" title="Editar"></a>
-                </td>
-            </tr>
-            <tr>
-                <td>Camila</td>
-                <td>Durán</td>
-                <td>12345678-9</td>
-                <td>Profesional</td>
-                <td>
-                    <a href="???"><img src="ICONO" alt="Eliminar" title="Eliminar"></a>
-                    <a href="editarprofesional.html"><img src="ICONO" alt="Editar" title="Editar"></a>
-                </td>
-            </tr>
-        </table>
+                <tr>
+                    <td>Yeny</td>
+                    <td>Paredes</td>
+                    <td>12345678-9</td>
+                    <td>Administrativo</td>
+                    <td class="actionIcons">
+                        <a href="???" title="Eliminar"><i class="fa-solid fa-trash"></i></a>
+                        <a href="editaradministrativo.html" title="Editar"><i class="fa-solid fa-pen-to-square"></i></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Camila</td>
+                    <td>Durán</td>
+                    <td>12345678-9</td>
+                    <td>Profesional</td>
+                    <td class="actionIcons">
+                        <a href="???" title="Eliminar"><i class="fa-solid fa-trash"></i></a>
+                        <a href="editarprofesional.html" title="Editar"><i class="fa-solid fa-pen-to-square"></i></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </section>
+
    
     <!--FOOTER-->
     <footer>
