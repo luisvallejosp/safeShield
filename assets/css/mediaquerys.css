@@ -130,6 +130,12 @@
     margin-right: 10px;
     }
 
+    /* USUARIOS REGISTRADOS */
+
+    #userList .container table {
+        width: 100%;
+    }
+
 }
 
 
@@ -178,11 +184,12 @@
 }
 
 
+    /* FOOTER */
+
 footer .container .empresa{
     padding-top: 30px;
     text-align: center;
     align-items: center;
-
 }
 
 footer .container .empresa a{

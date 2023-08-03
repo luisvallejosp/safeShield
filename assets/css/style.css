@@ -8,6 +8,10 @@
     list-style: none;
     font-size: 14px;
 }
+body{
+    width: 100vw;
+}
+
  a {
     text-decoration: none;
     display: block;
