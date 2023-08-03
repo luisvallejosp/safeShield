@@ -8,9 +8,7 @@
     list-style: none;
     font-size: 14px;
 }
-body{
-    width: 100vw;
-}
+
 
  a {
     text-decoration: none;
@@ -457,6 +455,12 @@ footer .container .links .rrss a i:hover{
 #userList .container table tr > *{
     width: 25%;
     text-align: center;
+}
+
+#userList .container table tr td .labelResponsive{
+    font-weight: 600;
+    padding-right: 10px;
+    display: none;
 }
 
 #userList .container table tr .actionIcons{
