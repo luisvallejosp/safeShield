@@ -72,7 +72,8 @@
 
     header .container h1{
         text-align: center;
-    align-self: center;
+        align-self: center;
+        font-size: 40px;
     }
 
     header .container p{
