@@ -71,6 +71,7 @@
     }
 
     header .container h1{
+        text-align: center;
     align-self: center;
     }
 
@@ -175,6 +176,20 @@
     #userList .container table tr .actionIcons a{
         padding-left: 10px;
     }
+
+    /*LISTADO DE USUARIOS (listadocapacitaciones.html)*/
+    
+    #listadoCap .container .cardsCapacitaciones{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #listadoCap .container .cardsCapacitaciones .capCard{
+        width: 80%;
+    }
+
+
 }
 
 
@@ -258,5 +273,10 @@ footer .container .links .rrss{
     justify-content: space-around;
 }
 
+    /*LISTADO DE USUARIOS (listadocapacitaciones.html)*/
+
+    #listadoCap .container .cardsCapacitaciones .capCard{
+        width: 90%;
+    }
 
 }

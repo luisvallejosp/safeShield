@@ -16,11 +16,14 @@
 </head>
 
 <body>
-    <!--NAV BAR-->
+    <!----------------------NAV BAR---------------------->
     <nav class="menu">
         <div class="container containerGrid">
-            <ul>
-                <li><a class="logoMenu" href="/"><img src="assets/img/logo-horizontal.svg" alt=""></a></li>
+            <ul id="mainMenu">
+                <li class="firstMenu"><a class="logoMenu" href="/"><img src="assets/img/logo-horizontal.svg" alt=""></a>
+                    <div id="abrirMenu"><i class="fa-solid fa-bars"></i></div>
+                    <div class="menuDisable" id="cerrarMenu"><i class="fa-solid fa-xmark"></i></div>
+                </li>
                 <li><a href="contacto.html">Contacto</a></li>
                 <li><a href="crearcapacitacion.html">Expone con Nosotros</a></li>
                 <li><a href="listadocapacitaciones.html">Capacitaciones</a></li>
@@ -28,8 +31,8 @@
                 <li><a href="crearusuario.html">Nuevo Usuario</a></li>
             </ul>
         </div>
+    <script src="assets/js/index.js"></script>
     </nav>
-
     <header>
         <h1>Editar Datos de Cliente</h1>
     </header>

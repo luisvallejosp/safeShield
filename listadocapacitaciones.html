@@ -9,6 +9,8 @@
   <meta name="description" content="Página dedicada a seguridad laboral">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/grid.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/mediaquerys.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/mediaquerys.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
@@ -16,11 +18,14 @@
 </head>
 
 <body>
-    <!--NAV BAR-->
+    <!----------------------NAV BAR---------------------->
     <nav class="menu">
       <div class="container containerGrid">
-          <ul>
-              <li><a class="logoMenu" href="/"><img src="assets/img/logo-horizontal.svg" alt=""></a></li>
+          <ul id="mainMenu">
+              <li class="firstMenu"><a class="logoMenu" href="/"><img src="assets/img/logo-horizontal.svg" alt=""></a>
+                  <div id="abrirMenu"><i class="fa-solid fa-bars"></i></div>
+                  <div class="menuDisable" id="cerrarMenu"><i class="fa-solid fa-xmark"></i></div>
+              </li>
               <li><a href="contacto.html">Contacto</a></li>
               <li><a href="crearcapacitacion.html">Expone con Nosotros</a></li>
               <li><a href="listadocapacitaciones.html">Capacitaciones</a></li>
@@ -28,8 +33,8 @@
               <li><a href="crearusuario.html">Nuevo Usuario</a></li>
           </ul>
       </div>
-  </nav>
-
+    <script src="assets/js/index.js"></script>
+    </nav>
     <!--BREADCRUMB-->
     <div class="container">
       <div class="breadcrumb">
@@ -46,23 +51,29 @@
     </div>
   </header>
 
-  <section id="listado-capacitaciones">
-      <div class="texto">
-          <h2>Capacitaciones Disponibles</h2>
-          <ul>
-            <li>
-              <h3>Capacitación 1</h3>
-              <p>Descripción breve de la capacitación 1.</p>
-              <a href="formulario_inscripcion.html" class="btn-inscripcion">Inscribirse</a>
-            </li>
-            <li>
-              <h3>Capacitación 2</h3>
-              <p>Descripción breve de la capacitación 2.</p>
-              <a href="formulario_inscripcion.html" class="btn-inscripcion">Inscribirse</a>
-            </li>
-          </ul>
-        </div>
-      </section>
+    <!--LISTADO DE CAPACITACIONES-->
+  <section id="listadoCap">
+    <div class="container">
+      <h2>Capacitaciones Disponibles</h2>
+      <div class="cardsCapacitaciones">
+          <div class="capCard">
+            <img src="assets/img/seguirdad-en-el-trabajo.jpeg" alt="Capacitación sobre seguridad laboral">
+            <div class="containerTxt">
+              <h3>Capacitación de Seguridad y salud laboral</h3>
+              <p>Desarrolla conocimientos y habilidades para prevenir riesgos en el trabajo y mantener un entorno seguro. Los participantes aprenderán a identificar peligros, aplicar medidas preventivas y promover una cultura de prevención en la empresa.</p>
+          </div>
+          <a href="formulario_inscripcion.html" class="btn-cta">Inscribirse</a>
+          </div>
+          <div class="capCard">
+            <img src="assets/img/primeros-auxilios.jpg" alt="Capacitación sobre seguridad laboral">
+            <div class="containerTxt">
+              <h3>Capacitación de Primeros auxilios</h3>
+              <p>habilidades necesarias para brindar atención inmediata y efectiva en situaciones de emergencia. Los participantes aprenderán técnicas de RCP, manejo de heridas y lesiones, y cómo actuar en casos de emergencia médica para preservar la vida y la salud de las personas.</p>
+          </div>
+          <a href="formulario_inscripcion.html" class="btn-cta">Inscribirse</a>
+      </div>
+    </div>
+  </section>
 
   <!--FOOTER-->
   <footer>
