@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/grid.css">
     <link rel="stylesheet" type="text/css" href="assets/css/mediaquerys.css">
+    <link rel="icon" type="image/jpg" href="assets/img/faviconl.svg"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
@@ -21,7 +22,7 @@
     <nav class="menu">
         <div class="container containerGrid">
             <ul id="mainMenu">
-                <li class="firstMenu"><a class="logoMenu" href="/"><img src="assets/img/logo-horizontal.svg" alt=""></a>
+                <li class="firstMenu"><a class="logoMenu" href="/"><img src="assets/img/logo-horizontal.svg" alt="Logo Safe Shield"></a>
                     <div id="abrirMenu"><i class="fa-solid fa-bars"></i></div>
                     <div class="menuDisable" id="cerrarMenu"><i class="fa-solid fa-xmark"></i></div>
                 </li>
@@ -34,43 +35,43 @@
         </div>
     <script src="assets/js/index.js"></script>
     </nav>
+
+    <!--BREADCRUMB-->
+    <div class="container">
+        <div class="breadcrumb">
+            <span>Home</span>
+            <i class="fa-solid fa-angle-right"></i>
+            <span>Nuevo usuario</span>
+        </div>
+    </div>
     <header>
-        <h1>Editar Datos de Cliente</h1>
+        <div class="container headerForm">
+            <h1>Editar usuario cliente</h1>
+            <p>Inscríbete en nuestra plataforma y mantente seguro en tu trabajo.</p>
+        </div>
     </header>
 
-    <main>
-        <h2>Formulario de Edición</h2>
-        <form action="procesar_edicion_cliente.php" method="post">
-            <label for="nombres">Nombres:</label>
-            <input type="text" id="nombres" name="nombres" required><br>
-
-            <label for="apellidos">Apellidos:</label>
-            <input type="text" id="apellidos" name="apellidos" required><br>
-
+    <form class="formulario-editarusuario">   
+        <div class="containerForm">
+            <label for="nombres">Nombres</label>
+            <input type="text" id="nombres" name="nombres" required placeholder="Denisse">
+    
+            <label for="apellidos">Apellidos</label>
+            <input type="text" id="apellidos" name="apellidos" required placeholder="Rossel">
+    
+            <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+    
             <label for="run">RUN:</label>
-            <input type="text" id="run" name="run" required><br>
-
-            <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono" required><br>
-
-            <label for="afp">AFP:</label>
-            <input type="text" id="afp" name="afp" required><br>
-
-            <label for="sistema_salud">Sistema de Salud:</label>
-            <input type="text" id="sistema_salud" name="sistema_salud" required><br>
-
-            <label for="direccion">Dirección:</label>
-            <input type="text" id="direccion" name="direccion" required><br>
-
-            <label for="comuna">Comuna:</label>
-            <input type="text" id="comuna" name="comuna" required><br>
-
-            <label for="edad">Edad:</label>
-            <input type="number" id="edad" name="edad" required><br>
-
-            <button type="submit">Guardar Cambios</button>
-        </form>
-    </main>
+            <input type="text" id="run" name="run" required placeholder="12345678-9">
+            
+            <br>
+            <div class="twoButtons">
+                <button type="submit" class="btn-cta">Atrás</button>
+                <button type="submit" class="btn-cta guardar">Guardar</button>
+            </div>
+        </div>
+    </form>
 
     <!--FOOTER-->
     <footer>

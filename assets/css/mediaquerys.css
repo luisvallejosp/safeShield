@@ -1,9 +1,21 @@
 
-
-/*Desktop
-@media (min-width: 825px) and (max-width: 2440px){
-
-}/*
+    header .headerForm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    header .headerForm h1{
+        text-align: center;
+        align-self: center;
+        font-size: 40px;
+    }
+    
+    header .headerForm p{
+        text-align: center;
+        padding: 25px;
+    }
 
 /**************************************************************/
 /*************************** Tablet ***************************/
@@ -80,6 +92,7 @@
         text-align: center;
         padding: 25px;
     }
+    
 
 
     /*************************** SECTIONS ***************************/
@@ -200,84 +213,91 @@
 /************************************************************/
 @media (max-width: 534px){
 
-    /* PREVIENE */
-#sectionPreviene .container{
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    padding-top: 0px;
-    padding-bottom: 60px;
-}
+        /* PREVIENE */
+    #sectionPreviene .container{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        padding-top: 0px;
+        padding-bottom: 60px;
+    }
 
-#sectionPreviene{
-    transform: translateY(-40px);
+    #sectionPreviene{
+        transform: translateY(-40px);
 
-}
+    }
 
-#sectionPreviene .container img{
-    max-width: 70%;
-    object-fit: cover;
-    border-radius: 16px;
-     margin-bottom: 20px;
-}
+    #sectionPreviene .container img{
+        max-width: 70%;
+        object-fit: cover;
+        border-radius: 16px;
+        margin-bottom: 20px;
+    }
 
-#sectionPreviene .container .contentTxt{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 0px;
-    align-items: center;
-    width: 80%;
-}
+    #sectionPreviene .container .contentTxt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0px;
+        align-items: center;
+        width: 80%;
+    }
 
-#sectionPreviene .container .contentTxt p, #sectionPreviene .container .contentTxt h2{
-    text-align: center;
-}
+    #sectionPreviene .container .contentTxt p, #sectionPreviene .container .contentTxt h2{
+        text-align: center;
+    }
 
-#sectionUsuarios .container .cards .userCard{
-    height: 350px;
-}
-
-
-    /* FOOTER */
-
-footer .container .empresa{
-    padding-top: 30px;
-    text-align: center;
-    align-items: center;
-}
-
-footer .container .empresa a{
-margin: auto;
-align-self: center;
-}
-
-footer .container .empresa p{
-    text-align: center;
-    padding-bottom: 0;
-}
-
-footer .container .links{
-    text-align: center;
-}
+    #sectionUsuarios .container .cards .userCard{
+        height: 350px;
+    }
 
 
-footer .container p{
-    text-align: center;
-}
+        /* FOOTER */
 
-footer .container .links ul{
-    padding-top: 20px;
-}
+    footer .container .empresa{
+        padding-top: 30px;
+        text-align: center;
+        align-items: center;
+    }
 
-footer .container .links .rrss{
-    justify-content: space-around;
-}
+    footer .container .empresa a{
+        margin: auto;
+        align-self: center;
+    }
+
+    footer .container .empresa p{
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    footer .container .links{
+        text-align: center;
+    }
+
+    footer .container p{
+        text-align: center;
+    }
+
+    footer .container .links ul{
+        padding-top: 20px;
+    }
+
+    footer .container .links .rrss{
+        justify-content: space-around;
+    }
 
     /*LISTADO DE USUARIOS (listadocapacitaciones.html)*/
 
     #listadoCap .container .cardsCapacitaciones .capCard{
         width: 90%;
+    }
+
+
+    .containerForm{
+        max-width: 85%;
+        padding: 40px 20px 20px 20px;
+        display: flex;
+        flex-direction: column;
     }
 
 }
